@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .App-logo {
@@ -26,6 +30,38 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.App-header-mini {
+  background-color: #2c5e1a;
+  padding: 20px;
+  color: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.App-header-mini h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+.App-header-mini p {
+  margin: 10px 0 0;
+  font-size: 1rem;
+  opacity: 0.9;
+}
+
+main {
+  flex: 1;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+footer {
+  background-color: #f1f8e9;
+  padding: 15px;
+  color: #558b2f;
+  font-size: 0.9rem;
+  border-top: 1px solid #dcedc8;
 }
 
 @keyframes App-logo-spin {
